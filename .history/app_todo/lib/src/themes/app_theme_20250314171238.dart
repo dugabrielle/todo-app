@@ -14,13 +14,5 @@ class AppTheme {
         primary: Colors.deepPurple,
         secondary: Colors.purple.shade300,
       ),
-      textTheme: GoogleFonts.comicNeueTextTheme(
-        TextTheme(
-          bodyMedium: TextStyle(
-            color: Colors.black,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ));
+      textTheme: GoogleFonts.comicNeue());
 }
